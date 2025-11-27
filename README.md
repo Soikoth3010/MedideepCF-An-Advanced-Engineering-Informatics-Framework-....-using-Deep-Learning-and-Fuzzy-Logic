@@ -59,7 +59,7 @@ MedideepCF is a multi-task AI pipeline combining:
 
 ---
 
-## 🚀 How to Use This Dataset
+## How to Use This Dataset
 
 ### **Clone the repository:**
 
