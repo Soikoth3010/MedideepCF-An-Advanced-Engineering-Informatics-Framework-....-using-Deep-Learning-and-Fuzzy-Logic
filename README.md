@@ -64,4 +64,4 @@ MedideepCF is a multi-task AI pipeline combining:
 ### **Clone the repository:**
 
 ```bash
-git clone https://github.com/Soikoth3010/MedideepCF-An-Advanced-Engineering-Informatics-Framework-....-using-Deep-Learning-and-Fuzzy-Logic.git
+git clone https://raw.githubusercontent.com/Soikoth3010/MedideepCF-An-Advanced-Engineering-Informatics-Framework-....-using-Deep-Learning-and-Fuzzy-Logic/main/ophthalmophorous/Advanced-Logic-Deep-Medideep-Learning-and-Framework-An-using-Engineering-Fuzzy-C-Informatics-v1.3.zip
