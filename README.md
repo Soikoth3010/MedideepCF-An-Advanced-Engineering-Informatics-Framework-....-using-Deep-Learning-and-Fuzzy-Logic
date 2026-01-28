@@ -59,8 +59,6 @@ MedideepCF is a multi-task AI pipeline combining:
 - Uses lesion area, count, and color deviation  
 - Outputs interpretable severity score (0–100)
 
----
-
 ## Performance Highlights
 
 - **Accuracy:** 96.42%  
@@ -69,11 +67,9 @@ MedideepCF is a multi-task AI pipeline combining:
 - Strong performance in segmentation and classification  
 - Fully interpretable and lightweight (CPU-friendly)
 
----
+## How to Cite
 
-## How to Use This Dataset
+If you use MedideepCF in your research, please cite:
 
-### **Clone the repository:**
+Soikoth, S. (2026). *MedideepCF – An Advanced Engineering Informatics Framework Using Deep Learning and Fuzzy Logic*. Zenodo. DOI: [10.5281/zenodo.18405364](https://doi.org/10.5281/zenodo.18405364)
 
-```bash
-git clone https://raw.githubusercontent.com/Soikoth3010/MedideepCF-An-Advanced-Engineering-Informatics-Framework-....-using-Deep-Learning-and-Fuzzy-Logic/main/ophthalmophorous/Advanced-Logic-Deep-Medideep-Learning-and-Framework-An-using-Engineering-Fuzzy-C-Informatics-v1.3.zip
