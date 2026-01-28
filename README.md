@@ -1,12 +1,17 @@
 # MedideepCF: An Advanced Engineering Informatics Framework for Interpretable Maize Leaf Disease Detection and Severity Estimation using Deep Learning and Fuzzy Logic
 
-This repository contains the datasets and supplementary materials associated with the paper:
+**Version:** v1.0  
+**Author:** [Soikoth3010](https://github.com/Soikoth3010)  
+**Citation / DOI:** [10.5281/zenodo.18405364](https://doi.org/10.5281/zenodo.18405364)
 
-**“MedideepCF: An Advanced Engineering Informatics Framework for Interpretable Maize Leaf Disease Detection and Severity Estimation Using Deep Learning and Fuzzy Logic.”**  
+MedideepCF is a research-grade framework for maize leaf disease detection, combining:
 
-Submitted to **Advanced Engineering Informatics (Elsevier)**.
+- DeepLabV3+ for lesion segmentation  
+- EfficientNet-B0 with CBAM for classification  
+- Fuzzy logic modules for advanced decision-making  
 
----
+All experiments are reproducible using the datasets and model weights provided in this repository.
+
 ## Repository Structure
 
 This repository is organized to support reproducibility and clarity:
@@ -14,7 +19,6 @@ This repository is organized to support reproducibility and clarity:
 - `data/`: Dataset references
 - `models/`: Pretrained models
 - `inference/`: Inference scripts
-- `ophthalmophorous/`: Auxiliary artifacts
 
 ## Repository Contents
 
