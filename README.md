@@ -7,6 +7,14 @@ This repository contains the datasets and supplementary materials associated wit
 Submitted to **Advanced Engineering Informatics (Elsevier)**.
 
 ---
+## Repository Structure
+
+This repository is organized to support reproducibility and clarity:
+
+- `data/`: Dataset references
+- `models/`: Pretrained models
+- `inference/`: Inference scripts
+- `ophthalmophorous/`: Auxiliary artifacts
 
 ## Repository Contents
 
