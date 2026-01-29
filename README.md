@@ -4,6 +4,11 @@
 **Author:** [Soikoth3010](https://github.com/Soikoth3010)  
 **Citation / DOI:** [10.5281/zenodo.18405364](https://doi.org/10.5281/zenodo.18405364)
 
+## Transparency Note
+This repository provides pretrained models and an end-to-end inference pipeline for the MedideepCF framework.
+The full training pipeline is not publicly released; however, the provided scripts enable reproduction of all reported inference results.
+
+
 MedideepCF is a research-grade framework for maize leaf disease detection, combining:
 
 - DeepLabV3+ for lesion segmentation  
