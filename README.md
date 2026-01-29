@@ -1,80 +1,115 @@
-# MedideepCF: An Advanced Engineering Informatics Framework for Interpretable Maize Leaf Disease Detection and Severity Estimation using Deep Learning and Fuzzy Logic
+MedideepCF
 
-**Version:** v1.0  
-**Author:** [Soikoth3010](https://github.com/Soikoth3010)  
-**Citation / DOI:** [10.5281/zenodo.18405364](https://doi.org/10.5281/zenodo.18405364)
+An Advanced Engineering Informatics Framework for Interpretable Maize Leaf Disease Detection and Severity Estimation using Deep Learning and Fuzzy Logic
 
-## Transparency Note
+Version: v1.0
+Author: Soikoth3010
+DOI: 10.5281/zenodo.18405364
+
+Transparency Note
+
 This repository provides pretrained models and an end-to-end inference pipeline for the MedideepCF framework.
-The full training pipeline is not publicly released; however, the provided scripts enable reproduction of all reported inference results.
+The full training pipeline is not publicly released; however, the provided scripts enable reproduction and verification of all reported inference results presented in the manuscript.
 
+Overview
 
-MedideepCF is a research-grade framework for maize leaf disease detection, combining:
+MedideepCF is a research-grade, interpretable AI framework for maize leaf disease detection and severity estimation.
+It integrates semantic segmentation, attention-enhanced classification, and fuzzy logic–based reasoning within a unified pipeline.
 
-- DeepLabV3+ for lesion segmentation  
-- EfficientNet-B0 with CBAM for classification  
-- Fuzzy logic modules for advanced decision-making  
+The framework combines:
 
-All experiments are reproducible using the datasets and model weights provided in this repository.
+DeepLabV3+ (ResNet-50) for pixel-level lesion segmentation
 
-## Repository Structure
+EfficientNet-B0 with CBAM for robust disease classification
 
-This repository is organized to support reproducibility and clarity:
+Mamdani-type fuzzy inference system for interpretable severity estimation
 
-- `data/`: Dataset references
-- `models/`: Pretrained models
-- `inference/`: Inference scripts
+Repository Structure
 
-## Repository Contents
+The repository is organized to support clarity, transparency, and reproducibility:
 
-### **Model Dataset**
-- Includes the **original and augmented RGB images** used for disease classification.  
-- Contains four classes:
-  - Blight  
-  - Common Rust  
-  - Gray Leaf Spot  
-  - Healthy  
+data/        Dataset references and annotations
+models/      Pretrained segmentation and classification models
+inference/   End-to-end inference scripts
 
+Repository Contents
+Dataset
 
-### **Masked Dataset**
-- Includes the **polygon-annotated segmentation masks** created using **Labelme**.
-- Used for training the DeepLabV3+ (ResNet-50) segmentation module.
-- Enables pixel-level lesion localization for interpretability and severity estimation.
+Model Dataset
 
----
+RGB maize leaf images used for classification
 
-## Summary of the MedideepCF Framework
+Four classes:
 
-MedideepCF is a multi-task AI pipeline combining:
+Blight
 
-### **1. Preprocessing**
-- Channel-wise **median filtering** for noise removal  
-- Linear contrast enhancement for improved lesion visibility
+Common Rust
 
-### **2. Semantic Segmentation**
-- DeepLabV3+ with **ResNet-50** backbone  
-- Produces binary lesion masks for downstream analysis
+Gray Leaf Spot
 
-### **3. Disease Classification**
-- EfficientNet-B0 enhanced with **CBAM attention**  
-- Robust against noise, variable lighting, and field conditions
+Healthy
 
-### **4. Severity Estimation**
-- A Mamdani-type **fuzzy inference system**  
-- Uses lesion area, count, and color deviation  
-- Outputs interpretable severity score (0–100)
+Masked Dataset
 
-## Performance Highlights
+Polygon-based segmentation masks created using Labelme
 
-- **Accuracy:** 96.42%  
-- **F1-Score:** 96.51%  
-- Validated using **4-fold stratified cross-validation**  
-- Strong performance in segmentation and classification  
-- Fully interpretable and lightweight (CPU-friendly)
+Used for training and validating the DeepLabV3+ segmentation module
 
-## How to Cite
+Enables pixel-level lesion localization and severity reasoning
+
+MedideepCF Pipeline Summary
+1. Preprocessing
+
+Channel-wise median filtering for noise suppression
+
+Linear contrast enhancement for improved lesion visibility
+
+2. Semantic Segmentation
+
+DeepLabV3+ with ResNet-50 backbone
+
+Generates binary lesion masks for spatial interpretability
+
+3. Disease Classification
+
+EfficientNet-B0 enhanced with CBAM attention
+
+Robust to illumination variation and field noise
+
+4. Severity Estimation
+
+Mamdani-type fuzzy inference system
+
+Inputs: lesion area, lesion count, color deviation
+
+Output: interpretable severity score (0–100)
+
+Performance Highlights
+
+Accuracy: 96.42%
+
+F1-Score: 96.51%
+
+Evaluated using 4-fold stratified cross-validation
+
+Strong performance in both segmentation and classification
+
+Lightweight and CPU-friendly inference
+
+Inference Demo
+
+The inference/run_demo.py script demonstrates the complete MedideepCF pipeline on a single input image, including preprocessing, segmentation, classification, and severity estimation using pretrained models.
+
+This script is intended for:
+
+Verifying model compatibility
+
+Demonstrating end-to-end inference flow
+
+Supporting qualitative evaluation
+
+Citation
 
 If you use MedideepCF in your research, please cite:
 
-Soikoth, S. (2026). *MedideepCF – An Advanced Engineering Informatics Framework Using Deep Learning and Fuzzy Logic*. Zenodo. DOI: [10.5281/zenodo.18405364](https://doi.org/10.5281/zenodo.18405364)
-
+Soikoth, S. (2026). MedideepCF – An Advanced Engineering Informatics Framework Using Deep Learning and Fuzzy Logic. Zenodo. https://doi.org/10.5281/zenodo.18405364
